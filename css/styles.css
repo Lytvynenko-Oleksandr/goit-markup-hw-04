@@ -438,13 +438,14 @@ h3 {
 }
 
 .examples-link {
+    display: block;
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-.examples-list .item:hover {
-    border: 0.5px solid var(--secondary-background-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.examples-link:hover {
+       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .examples-title {
